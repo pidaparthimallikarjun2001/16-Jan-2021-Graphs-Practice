@@ -48,9 +48,9 @@ public class PrintAllPaths {
         int src = sc.nextInt();
         int dest = sc.nextInt();
         
-        for(int i = 0; i < V; i++) {
-            System.out.println(graph.get(i));
-        }
+//         for(int i = 0; i < V; i++) {
+//             System.out.println(graph.get(i));
+//         }
 
         printAllPaths(graph, src, dest, visited, "" + src);
 
